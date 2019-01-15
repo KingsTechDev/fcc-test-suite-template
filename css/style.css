@@ -25,3 +25,10 @@ input {
     background: white !important;
     border-color: black !important
 }
+textarea {
+    background: white !important;
+}
+.submit-button {
+    text-align: center;
+    margin-bottom: 15px
+}

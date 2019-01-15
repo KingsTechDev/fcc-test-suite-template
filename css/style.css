@@ -1,6 +1,9 @@
 body {
     background-color: rgb(169, 215, 209) !important;
-    color: black
+    color: black;
+    text-align: center;
+    font-family: 'Raleway', Helvetica, sans-serif;
+    min-width: 320px;
 }
 #title {
     text-align: center;
@@ -23,4 +26,28 @@ p {
 input {
     background: white !important;
     border-color: black !important
+}
+.rating {
+    display: inline-block;
+    text-align: right;
+    width: 40%;
+    padding: 5px;
+    vertical-align: top;
+    margin-top: 10px;
+}
+.radioBoxRight {
+    display: inline-block;
+    text-align: left;
+    width: 48%;
+    vertical-align: middle;
+}
+ul{
+    list-style: none;
+}
+.radio{
+    position: relative;
+    left: -43px;
+    margin-left: 10px;
+    display: block;
+    padding-bottom: 10px;
 }

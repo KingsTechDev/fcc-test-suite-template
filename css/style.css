@@ -7,6 +7,7 @@ body {
 }
 #title {
     text-align: center;
+    font-weight: bold
 }
 p {
     text-align: center
@@ -50,4 +51,11 @@ ul{
     margin-left: 10px;
     display: block;
     padding-bottom: 10px;
+}
+textarea {
+    background: white !important;
+}
+.submit-button {
+    text-align: center;
+    margin-bottom: 15px
 }
